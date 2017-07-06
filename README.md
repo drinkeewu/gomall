@@ -1,4 +1,4 @@
-#GoMall
+# GoMall
 GoMall 购物中心 
 
 > 项目参照慕课网mmall项目进行开发
