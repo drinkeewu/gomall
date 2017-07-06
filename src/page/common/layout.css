@@ -1,0 +1,143 @@
+/*
+* @Author: drinkeewu
+* @Date:   2017-07-03 15:33:44
+* @Last Modified by:   drinkeewu
+* @Last Modified time: 2017-07-05 18:32:52
+*/
+
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f6f6f6;
+    font: 12px/1.5 tahoma, arial, Microsoft YaHei, sans-serif;
+}
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    border: none;
+}
+label{
+    cursor: pointer;
+}
+input[type='checkbox']{
+    cursor: pointer;
+}
+
+/* 定宽布局 */
+.w{
+    width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/* panel */
+.panel{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+}
+.panel .panel-title{
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+}
+.panel .panel-body{
+    padding: 10px;
+    overflow: hidden;
+}
+
+/* 全局通用样式 */
+/* 隐藏类 */
+.hide{
+    display: none;
+}
+/* 超链样式 */
+.link{
+    color: #999;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link:hover{
+    color: #e80012;
+}
+.link-text{
+    color: #999;
+    text-decoration: none;
+}
+/* btn */
+.btn{
+    display: inline-block;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    border: none;
+    background: #c60023;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-mini{
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    padding: 0 10px;
+}
+/* loading */
+.loading{
+    margin: 10px auto;
+    display: block;
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    background: url(../../image/loading.png) no-repeat;
+    opacity: .6;
+
+    animation: loading 3s linear infinite;
+    -webkit-animation: loading 3s linear infinite;
+}
+/* loading keyframes */
+@keyframes loading {
+    0% {
+        -webkit-transform: rotate(0deg);
+           -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+             -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+           -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+             -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes loading {
+    0% {
+        -webkit-transform: rotate(0deg);
+           -moz-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+             -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+           -moz-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+             -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}

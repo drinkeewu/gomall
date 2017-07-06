@@ -1,0 +1,32 @@
+/*
+* @Author: drinkeewu
+* @Date:   2017-07-03 17:02:14
+* @Last Modified by:   drinkeewu
+* @Last Modified time: 2017-07-03 17:08:45
+*/
+
+.nav{
+	background: #eee;
+	height: 30px;
+	line-height: 30px;
+	//用户部分
+	.user{
+		float: left;
+		.link{
+			margin-right: 5px;
+		}
+	}
+	.user.login{
+		display: none;
+	}
+	// 导航链接部分
+	.nav-list{
+		float: right;
+		.nav-item{
+			display: inline-block;
+			margin-left: 5px;
+		}
+	}
+}
+
+
