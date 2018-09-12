@@ -18,7 +18,6 @@ npm run dev
 1. jQuery
 2. Webpack 
 3. Node.js
-4. npm管理
 
 
 
